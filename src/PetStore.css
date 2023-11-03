@@ -1,0 +1,67 @@
+ul {
+    list-style: none; /* Quitamos los marcadores */
+    padding: 0; /* Quitamos el padding por defecto de la lista */
+    text-align: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+li { /* Añadimos contenido antes de cada elemento de la lista */
+    list-style: none;
+    content: "\2022"; /* Insertamos el marcador */
+    padding: 15px; /* Establecemos el espacio entre las viñetas y el list item */
+    color: black; /* Coloreamos la viñeta */
+}
+
+li.title{
+    background-color:gainsboro;
+    font-weight: bold;
+    border-bottom: 0 0 1px 0;
+    list-style-position:inside;
+    border-bottom: 3px solid grey
+}
+
+li.odd {
+    background-color:aliceblue;
+}
+li.even {
+    background-color:white;
+}
+
+span {
+    padding: 10px;
+
+}
+
+.button {
+    text-align: center;
+}
+
+button.selected{
+    font-weight: 100;
+    color:beige;
+}
+
+button.no_selected{
+    cursor: pointer;
+    border-width: 0;
+}
+
+
+button {
+    background-color: rgba(51, 51, 51, 0.05);
+    border-radius: 8px;
+    border-width: 0;
+    color: #333333;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    margin: 10px 10px 0 0;
+
+}
