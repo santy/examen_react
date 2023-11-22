@@ -17,8 +17,12 @@ const FoodApp = (props) => {
   };
   return (
     <>
-      <h1>Food Shop is now {shopOpen}</h1>
-      <button onClick={openOrCloseShop}>{btnText}</button>
+      <div>
+        <button onClick={openOrCloseShop}>{btnText}</button>
+      </div>
+      
+      <h1>Just Food online Shop{shopOpen}</h1>
+      
       <Menu isOpen={shopOpen} />
     </>
   );

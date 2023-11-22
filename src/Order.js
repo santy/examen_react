@@ -3,7 +3,10 @@ const Order = (props) => {
       alert("Food ordered");
     };
     return (
-      <>{props.isOpen === "Open" && <button onClick={orderFood}>Order</button>}</>
+      <>{props.isOpen === "Open" && <button onClick={orderFood}>Order</button>}
+      </>
     );
   };
-  export default Order;
+  
+  
+export default Order;

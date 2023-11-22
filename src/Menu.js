@@ -4,12 +4,12 @@ const Menu = (props) => {
   return (
     <>
       <ul>
-        <li>Pizza</li>
-        <li>Nuggets</li>
-        <li>Chips</li>
-        <li>Protein Shake</li>
+        <li><span class="food">Fried chicken burger - lettuce, tomato, cheese and mayonnaise </span><br /><Order isOpen={props.isOpen} /></li>
+        <li><span class="food">Plant-based burger -- letyce, tomato, vegan cheese and mayonnaise </span><br /><Order isOpen={props.isOpen} /></li>
+        <li><span class="food">Potato chips fried to perfection <br /></span><Order isOpen={props.isOpen} /></li>
+        <li><span class="food">Ice cream - Vanilla ice cream double scoop</span><br /><Order isOpen={props.isOpen} /></li>
       </ul>
-      <Order open={props.isOpen} />
+      
     </>
   );
 };
