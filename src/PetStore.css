@@ -40,7 +40,7 @@ span {
 
 button.selected{
     font-weight: 100;
-    color:beige;
+    color:gray;
 }
 
 button.no_selected{
