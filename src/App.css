@@ -2,31 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  text-align: center;
+  font-size: 35px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +17,86 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px 0;
+  width:300px;
+  
+}
+
+.login {
+  width:300px;
+  align-items: center;
+  justify-content: center;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+label, input, button {
+  margin-top:10px;
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+input[type=text] {
+	appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid gray;
+	background: rgba(gray, .2);
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
+	color: gray;
+}
+
+input[type=password] {
+	appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid gray;
+	background: rgba(gray, .2);
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
+	color: gray;
+}
+
+input[type=submit] {
+	appearance: none;
+	border: .2em solid gray;
+	background: hsl(0 0 0/0);
+	padding: .85em 1.5em;
+	color: gray;
+	border-radius: 2em;
+	transition: 1s;
+	&:hover, &:focus, &:active {
+		background: gray;
+		color: #fff;
+	}
+}
+
+.button-div{
+  width: 100%;
+  margin-bottom: 10px;
+  
+}
+button {
+  display:grid;
+  margin:auto;
+  appearance: none;
+	border: .2em solid gray;
+	background: hsl(0 0 0/0);
+	padding: .85em 1.5em;
+	color: gray;
+	border-radius: 2em;
+	transition: 1s;
+  width: 100%;
+  &:hover, &:focus, &:active {
+		background: gray;
+		color: #fff;
+	}
 }
